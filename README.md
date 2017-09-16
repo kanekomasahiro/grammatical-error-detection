@@ -12,13 +12,13 @@ Masahiro Kaneko, Yuya Sakaizawa and Mamoru Komachi. Grammatical Error Detection 
 
 # Description of files
 
---BLSTM.py : This code performs grammatical error detection with bidirectional long-short term memory model (Bi-LSTM).  
-    -You can initialize Bi-LSTM with word embeddings that cosider grammaticality and error patterns.  
---EWE.py, GWE.py and EandGWE.py : Their codes are the different methods of learning word embeddings.  
---functions.py, generators.py : The parts for other codes.  
---embedding.txt : This is the pre-trained word embeddings model that consider grammaticality and error patterns.  
+- BLSTM.py : This code performs grammatical error detection with bidirectional long-short term memory model (Bi-LSTM).  
+    - You can initialize Bi-LSTM with word embeddings that cosider grammaticality and error patterns.  
+- EWE.py, GWE.py and EandGWE.py : Their codes are the different methods of learning word embeddings.  
+- functions.py, generators.py : The parts for other codes.  
+- embedding.txt : This is the pre-trained word embeddings model that consider grammaticality and error patterns.  
 
-# Requirements:
+# Requirements
 - Chainer 1.13.0
 - Python 3.5.2
 - Numpy 1.12.0
